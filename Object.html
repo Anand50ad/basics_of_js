@@ -12,9 +12,12 @@
             brand:"samsung",
             size:55,
             resolution:"hd",
-            material:"plastic"
+            material:"plastic",
+            fullName: function(){
+                console.log(this.brand + " OLED " + this.size);
+            }
         };
-        console.log(tv.brand);
+        console.log(tv.fullName());
     </script>
 </body>
 </html>
