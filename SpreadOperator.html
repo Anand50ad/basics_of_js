@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operator</title>
+</head>
+<body>
+    <script>
+    let hp=[2,4,5,7,6,1];
+    let dell=[5,3,5,67,3];
+    //let macBook= hp.concat(dell);
+    let macBook = [...hp,45,...dell]; //spread operator allows to create a copy of variable for using so that the original variables are not modified accidently
+    console.log(macBook);
+    </script>
+</body>
+</html>
